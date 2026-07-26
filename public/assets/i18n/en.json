@@ -68,6 +68,10 @@
     "NO_DATA": "No invoice records found.",
     "DELETE_SUCCESS": "Record deleted successfully!"
   },
+  "FOOTER": {
+    "COPYRIGHT": "All Rights Reserved © Fahd Bakhalah",
+    "CONTACT": "Contact me on WhatsApp"
+  },
   "COMMON": {
     "SUCCESS": "Success",
     "ERROR": "Error",

@@ -3,11 +3,12 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { AuthService } from '../../core/services/auth.service';
+import { FooterComponent } from '../components/footer/footer.component';
 
 @Component({
   selector: 'app-main-layout',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, CommonModule, TranslatePipe],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, CommonModule, TranslatePipe, FooterComponent],
   template: `
     <div class="main-layout" [dir]="currentDir">
       <!-- Navbar -->
@@ -62,6 +63,7 @@ import { AuthService } from '../../core/services/auth.service';
       <main class="content-area">
         <router-outlet></router-outlet>
       </main>
+      <app-footer></app-footer>
     </div>
   `,
   styles: [`
