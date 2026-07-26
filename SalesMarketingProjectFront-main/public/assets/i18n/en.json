@@ -1,0 +1,77 @@
+{
+  "NAV": {
+    "DASHBOARD": "Dashboard",
+    "ADD_INVOICE": "Add Invoice",
+    "LOGS": "Invoice Logs",
+    "LOGOUT": "Logout",
+    "LANG_SWITCH": "العربية"
+  },
+  "AUTH": {
+    "TITLE": "Smart Invoice System",
+    "SUBTITLE": "Smart Sales Analytics & Automated Invoice Entry",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "ROLE": "Account Role",
+    "ADMIN": "Administrator (Full Access)",
+    "ENTRY": "Data Entry (Add Only)",
+    "LOGIN_BTN": "Login",
+    "REGISTER_BTN": "Register Account",
+    "HAVE_ACCOUNT": "Already have an account? Login",
+    "NO_ACCOUNT": "Don't have an account? Register now",
+    "USERNAME_REQ": "Username is required",
+    "PASSWORD_REQ": "Password is required",
+    "REGISTER_SUCCESS": "Account registered successfully!",
+    "LOGIN_SUCCESS": "Logged in successfully!"
+  },
+  "DASHBOARD": {
+    "TITLE": "Analytics Dashboard & Summary Statistics",
+    "TOTAL_SALES": "Total Sales",
+    "INVOICES_COUNT": "Invoices Count",
+    "AOV": "Average Order Value (AOV)",
+    "TOP_VENDOR": "Top Vendor",
+    "TOP_CATEGORY": "Top Category",
+    "CURRENCY": "SAR",
+    "ANALYTICS_TITLE": "Revenue Distribution by Category",
+    "VENDOR_SUMMARY": "Vendor Activity & Transactions Summary"
+  },
+  "ADD": {
+    "TITLE": "Scan & Upload New Invoices",
+    "UPLOAD_DRAG": "Drag and drop the invoice image here or click to select a file",
+    "SCAN_BTN": "Start Scan & Text Extraction (OCR)",
+    "SCANNING": "Processing image and reading text (OCR)...",
+    "FORM_TITLE": "Extracted Invoice Details (Verify before saving)",
+    "VENDOR": "Vendor Name",
+    "INV_NO": "Invoice Number",
+    "AMOUNT": "Total Amount",
+    "CATEGORY": "Category",
+    "DATE": "Date",
+    "TIME": "Time",
+    "SAVE_BTN": "Save Invoice to Database",
+    "CLEAR_BTN": "Clear & Start Over",
+    "SAVE_SUCCESS": "Invoice saved successfully to the system!"
+  },
+  "LOGS": {
+    "TITLE": "Invoice Records & Intelligent Search",
+    "SEARCH_PLACEHOLDER": "Search by vendor name or category...",
+    "FILTER_ALL": "All Historic Records",
+    "FILTER_TODAY": "Today's Invoices Only",
+    "EXPORT_CSV": "Export to Excel (CSV)",
+    "COL_DATE": "Date",
+    "COL_TIME": "Time",
+    "COL_VENDOR": "Vendor",
+    "COL_CATEGORY": "Category",
+    "COL_AMOUNT": "Amount",
+    "COL_INV_NO": "Invoice No",
+    "COL_ACTIONS": "Actions",
+    "DELETE_BTN": "Delete",
+    "DELETE_CONFIRM": "Are you sure you want to delete this record permanently?",
+    "NO_DATA": "No invoice records found.",
+    "DELETE_SUCCESS": "Record deleted successfully!"
+  },
+  "COMMON": {
+    "SUCCESS": "Success",
+    "ERROR": "Error",
+    "SAR": "SAR",
+    "LANGUAGE": "English"
+  }
+}
