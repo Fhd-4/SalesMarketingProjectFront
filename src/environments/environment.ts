@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://salesmarketingprojectb.runasp.net/api'
+  apiUrl: 'https://salesmarketingprojectb.runasp.net/api'
 };
 
 
