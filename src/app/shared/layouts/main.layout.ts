@@ -14,7 +14,7 @@ import { AuthService } from '../../core/services/auth.service';
       <nav class="navbar">
         <div class="nav-container">
           <div class="brand">
-            <span class="logo-icon">📊</span>
+            <img src="assets/logo.jpg" alt="Logo" class="logo-img" />
             <span class="brand-name">{{ 'AUTH.TITLE' | translate }}</span>
           </div>
 
@@ -100,8 +100,13 @@ import { AuthService } from '../../core/services/auth.service';
       gap: 10px;
     }
 
-    .logo-icon {
-      font-size: 1.5rem;
+    .logo-img {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 1.5px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     }
 
     .brand-name {
